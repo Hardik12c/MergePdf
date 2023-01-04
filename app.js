@@ -10,7 +10,7 @@ var folder = './uploads/';  //folder directory
 const app=express();
 
 
-app.use('/static', express.static('public'))   // to redirect to pdf 
+app.use('/static', express.static('public/savedfiles'))   // to redirect to pdf 
 
 app.use(express.json());
 app.use(express.static('./public'))  // to serve basic index.html
